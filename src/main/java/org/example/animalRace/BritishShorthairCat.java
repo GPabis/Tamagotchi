@@ -1,5 +1,4 @@
 package org.example.animalRace;
-
 import org.example.AnimalRaceType;
 import org.example.AnimalType;
 
