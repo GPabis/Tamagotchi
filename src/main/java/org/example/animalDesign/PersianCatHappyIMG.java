@@ -7,18 +7,18 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 
-public class PersianCatIconIMG implements IconIMG {
+public class PersianCatHappyIMG implements HappyIMG {
     private static final String pathToIMG =
-            "src/main/java/org/example/animalDesign/IMG/persiancatIMG/persiancat-icon.jpg";
+            "src/main/java/org/example/animalDesign/IMG/persiancatIMG/persiancathappyimg.jpg";
     private BufferedImage img;
 
     @Override
     public void setIMG() {
-        try {
-            this.img = ImageIO.read(new File(this.pathToIMG));
-        }catch (IOException e){
-            System.out.println("IMG not found.");
-        }
+    try {
+        this.img = ImageIO.read(new File(this.pathToIMG));
+    }catch (IOException e){
+        System.out.println("Img not found.");
+    }
     }
 
     @Override
